@@ -4,6 +4,7 @@ This repository groups TOML plugins for [proto](https://moonrepo.dev/proto).
 
 Plugins included right now:
 - [jq](https://jqlang.github.io/jq/)
+- [nixpacks](https://nixpacks.com)
 
 ## Installation
 
