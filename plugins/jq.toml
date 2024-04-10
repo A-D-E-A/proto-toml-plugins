@@ -25,5 +25,5 @@ arm = "armel"
 x86 = "i386"
 
 [resolve]
-version-pattern = "jq-((?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+))"
+version-pattern = "jq-((?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?(?<pre>rc\\d+)?)$"
 git-url = "https://github.com/jqlang/jq"
